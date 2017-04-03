@@ -1,0 +1,81 @@
+<!-- 
+
+-----------------------
+START CODING SLIDE-SHOW
+-----------------------
+HTML Structure: -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Green Energy</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> </head>
+
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="companyname"><i class="fa fa-globe fa-1x" aria-hidden="true"></i> Green Solutions</div>
+			<div class="nav-bg">
+				<nav>
+					<div class="content-box">
+						<ul class="navbar clearfix">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="banner">
+				<div class="boxslide">
+					<div class="mh-image"> </div>
+					<!-- 
+      NOTE:
+      Slides switch every 6 seconds. 
+      Every slide is exposed for 5 seconds.
+      The difference of 1 second is planned for 
+      CSS transition fade-in/out, so make sure
+      your div with class "mh-image" has set
+      transition for opacity (with duration 
+      of 1 second and type of easing "ease-out") 
+      in stylesheet.
+      -->
+				</div>
+			</div>
+	</header>
+	<!-- 
+-------------------------------------
+START CODING REVEAL-HIDE MAIN-CONTENT
+-------------------------------------
+HTML Structure:  -->
+	<main>
+		<div class="box">
+			<h1>Affordable Solutions</h1>
+			<ul class="buttons_list">
+				<li><span class="btn" id="active">active</span></li>
+				<li><span class="btn" id="wind">wind</span></li>
+				<li><span class="btn" id="rain">rain</span></li>
+			</ul>
+			<div class="container"></div>
+		</div>
+	</main>
+	<footer>
+		<hr>
+		<div class="social">
+			<ul class="socialmedia">
+				<p>Green Solutions Inc. &copy;2017</p>
+				<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
